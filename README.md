@@ -4,10 +4,10 @@ Simple spring boot with jdbc template application.
 # Swagger URL
 http://localhost:9999/swagger-ui.html
 
-#Postman/RestClient URL
+# Postman/RestClient URL
 localhost:9999/employee/addEmployee
 
-#Sample Request:
+# Sample Request
 {
 "firstName": "Dasari",
 "lastName": "Naresh",
@@ -15,7 +15,7 @@ localhost:9999/employee/addEmployee
 "salary": 100000
 }
 
-#Table Struture:
+# Table Struture
 CREATE TABLE `employee` (
   `first_name` varchar(45) DEFAULT NULL,
   `last_name` varchar(45) DEFAULT NULL,
@@ -24,7 +24,7 @@ CREATE TABLE `employee` (
   PRIMARY KEY (`email`)
 )
 
-#DB Query
+# DB Query
 INSERT INTO `test`.`employee`
 (`first_name`,
 `last_name`,
